@@ -10,7 +10,7 @@ import (
 // 这里使用百度的翻译，自己申请一个即可
 const API_KEY = "your-api-key"
 const SECRET_KEY = "yoursecret"
-const PATH = "填入要翻译的项目地址"
+const PATH = "填入要翻译的项目路径"
 
 func main() {
 	run(PATH)
